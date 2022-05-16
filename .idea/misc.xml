@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/background_black_button.xml" value="0.2265" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/background_news.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/ic_back.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/ic_logo.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/launch_splash.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable-v24/splash.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable/background_constraintlayout.xml" value="0.2265" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable/background_gray_button.xml" value="0.2265" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/drawable/recyclerview_item_color.xml" value="0.2265" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout-land/view_news_fragment.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/activity_main.xml" value="0.2191780821917808" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/button_back.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/first_view_news_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/fragment_news_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/generic_dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/item_error.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/item_progress.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/network_status.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/news_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/news_overview_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/recycler_item_view_news.xml" value="0.4" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/start_screen_fragment.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/view_news_fragmendt.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/layout/view_news_fragment.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/valal/AndroidStudioProjects/ZennexTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/drawable-v24/ic_back.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/drawable-v24/launch_splash.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/drawable/background_constraint_layout.xml" value="0.1865" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/layout/generic_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/layout/network_status.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/valal/Downloads/ZennexTesteroid/app/src/main/res/layout/view_news_fragment.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

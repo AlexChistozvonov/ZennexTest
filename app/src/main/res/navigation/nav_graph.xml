@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewNewsFragment">
+
+    <fragment
+        android:id="@+id/viewNewsFragment"
+        android:name="com.example.zennextest.presentation.viewNews.ViewNewsFragment"
+        android:label="ViewNewsFragment"
+        tools:layout="@layout/view_news_fragment">
+    </fragment>
+</navigation>
