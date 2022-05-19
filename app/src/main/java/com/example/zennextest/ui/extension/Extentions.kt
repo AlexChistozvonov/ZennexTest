@@ -2,7 +2,7 @@ package com.example.zennextest.ui.extension
 
 import com.example.zennextest.data.models.ArticleDTO
 import com.example.zennextest.data.models.DataNews
-import com.example.zennextest.domain.DomainNews
+import com.example.zennextest.domain.models.DomainNews
 
 /**
  * Converts Data model into Domain model

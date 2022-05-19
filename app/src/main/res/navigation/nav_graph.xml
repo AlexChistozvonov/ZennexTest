@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/viewNewsFragment"
-        android:name="com.example.zennextest.presentation.viewNews.ViewNewsFragment"
+        android:name="com.example.zennextest.presentation.viewNews.NewsFragment"
         android:label="ViewNewsFragment"
-        tools:layout="@layout/view_news_fragment">
+        tools:layout="@layout/news_fragment">
     </fragment>
 </navigation>

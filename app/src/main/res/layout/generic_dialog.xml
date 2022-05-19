@@ -47,23 +47,6 @@
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn_cancel"
-                style="@style/ColoredButton"
-                android:layout_width="0dp"
-                android:layout_height="38dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/light_gray"
-                android:fontFamily="@font/ubuntu_medium"
-                android:text="@string/cancel"
-                android:textColor="@color/black" />
-
-            <View
-                android:id="@+id/divider"
-                android:layout_width="18dp"
-                android:layout_height="match_parent"
-                android:background="@color/white" />
-
-            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_ok"
                 style="@style/ColoredButton"
                 android:layout_width="0dp"

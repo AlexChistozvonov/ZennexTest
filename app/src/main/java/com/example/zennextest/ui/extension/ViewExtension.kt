@@ -3,13 +3,12 @@ package com.example.zennextest.ui.extension
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.Toast
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import com.example.zennextest.ui.util.SafeClickListener
-import com.example.zennextest.ui.exception.UIExceptionMapper
 import com.example.zennextest.R
 import com.example.zennextest.databinding.GenericDialogBinding
+import com.example.zennextest.ui.exception.UIExceptionMapper
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 
@@ -20,10 +19,6 @@ inline fun <T : View> T.showIf(condition: (T) -> Boolean): T {
         hide()
     }
     return this
-}
-
-fun Fragment.toast(message: String?) {
-    Toast.makeText(this.requireContext(), message, Toast.LENGTH_SHORT).show()
 }
 
 fun View.show() {
@@ -47,8 +42,6 @@ fun View.onClick(onSafeClick: (View) -> Unit) {
 
 fun Fragment.showGeneralErrorDialog(
     context: Context,
-    exception: Exception?,
-    @StringRes closeButtonTextRes: Int = R.string.cancel,
     closeAction: (() -> Unit)? = null,
     submitAction: (() -> Unit)? = null,
     @StringRes submitButtonTextRes: Int = R.string.ok,
@@ -69,21 +62,14 @@ fun Fragment.showGeneralErrorDialog(
     val alertDialog = builder.create()
 
     with(dialogBinding) {
-        mapper.titleMapper(context, exception).let { title ->
+        mapper.titleMapper(context).let { title ->
             tvTitle.showIf { title.isNotEmpty() }
             tvTitle.text = title
         }
 
-        mapper.subtitleMapper(context, exception).let { subTitle ->
+        mapper.subtitleMapper(context).let { subTitle ->
             tvSubtitle.showIf { subTitle.isNotEmpty() }
             tvSubtitle.text = subTitle
-        }
-
-        btnCancel.show()
-        btnCancel.text = context.resources.getString(closeButtonTextRes)
-        btnCancel.onClick {
-            alertDialog.dismiss()
-            closeAction?.invoke()
         }
 
         btnOk.show()

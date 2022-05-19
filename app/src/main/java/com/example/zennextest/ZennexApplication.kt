@@ -2,7 +2,7 @@ package com.example.zennextest
 
 import android.app.Application
 import android.content.Context
-import com.example.zennextest.core.di.AppComponent
+import com.example.zennextest.di.AppComponent
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp

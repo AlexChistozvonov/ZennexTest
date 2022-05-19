@@ -33,6 +33,7 @@
 
     <style name="Theme.Zennex.Launcher">
         <item name="android:windowBackground">@drawable/launch_splash</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
 
